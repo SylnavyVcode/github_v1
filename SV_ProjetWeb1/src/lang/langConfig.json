@@ -1,0 +1,166 @@
+[
+    {
+        "lang":"en-EN",
+        "Login":{
+            "title":"LOGIN",
+            "paragraphe":"Login to access your account",
+            "email":"Email",
+            "password":"Password",
+            "check":"Remenber me",
+            "forgot":"Forgot Password?",
+            "link1":"Don't have an Account?",
+            "link2":"Register Here",
+            "errorfield":"invalid field",
+            "errorAction":"Invalid credentials"
+        },
+        "Sign":{
+            "title":"SIGN UP",
+            "paragraphe":"Sign up to access your account",
+            "email":"Email",
+            "password":"Password",
+            "confirmPassword":"Confirm password",
+            "link1":"You have an Account?",
+            "link2":"Login Here",
+            "errorfield":"invalid field",
+            "errorConfirm":"must be equal to password",
+            "errorAction":"..."
+        },
+        "GetCode":{
+            "title":"VALIDATE THE ACCOUNT",
+            "paragraphe":"Validate your account to access your account",
+            "code":"Code",
+            "errorfield":"invalid field",
+            "errorAction":"..."
+        },
+        "Forgot":{
+            "title":"RESET PASSWORD",
+            "paragraphe":"Forgot your password? Do not panic",
+            "code":"Email",
+            "errorfield":"invalid field",
+            "errorAction":"..."
+        },
+        "Home":{
+            "title":"DATAVALID",
+            "subtitle":"AYO",
+            "paragraphe":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, culpa fugiat? Qui dolorem rem alias nulla! Illum rerum quidem totam cumque",
+            "about":"About Us",
+            "copy":"Copyright Ayokai@2022"
+
+        },
+        "EmptyWorkspace":{
+            "title":"EMPTY WORKSPACE",
+            "subtitle":"You don't have workspace",
+            "paragraphe":"Eng Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime voluptatibus quas harum repudiandae. Aut velit, nemo repellat assumenda explicabo minima placeat temporibus distinctio nisi eos nesciunt amet adipisci porro!",
+            "button":"Create a workspace"
+        },
+        "ModalCreateWorkSpace":{
+            "title":"CREATE A WORKSPACE",
+            "name":"Name",
+            "createBtn":"Create",
+            "cancelBtn":"Cancel"
+        },
+        "ModalDelWorkSpace":{
+            "title":"Warning",
+            "subtitle":"Do you really want to execute this action ?",
+            "okBtn":"Yes",
+            "cancelBtn":"Cancel"
+        },
+        "ModalAddTeamWorkSpace":{
+            "title":"Add users to my workspace",
+            "email":"Email",
+            "addEmail":"Add",
+            "errorEmail":"Invalid Email",
+            "finishBtn":"Validate",
+            "cancelBtn":"cancel"
+        },
+        "Folder":{
+            "label":"You don't have project",
+            "textbtn_empty":"Add a Project",
+            "paragraphe_empty":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime voluptatibus quas harum repudiandae. Aut velit, nemo repellat assumenda explicabo minima placeat temporibus distinctio nisi eos nesciunt amet adipisci porro!"  
+        }
+
+    },
+
+
+    {
+        "lang":"fr-FR",
+        "Login":{
+            "title":"CONNEXION",
+            "paragraphe":"Identifiez vous pour accéder à votre compte",
+            "email":"E-mail",
+            "password":"Mot de passe",
+            "check":"se souvenir de moi",
+            "forgot":"Mot de passe oublié?",
+            "link1":"Vous n'avez pas de compte ?",
+            "link2":"Inscrivez-vous ici",
+            "errorfield":"champ invalide",
+            "errorAction":"Informations d'identification invalides"
+        },
+        "Sign":{
+            "title":"S'INSCRIRE",
+            "paragraphe":"Inscrivez-vous pour accéder à votre compte",
+            "email":"E-mail",
+            "password":"Mot de passe",
+            "confirmPassword":"Confirmez le mot de passe",
+            "link1":"Vous avez un compte ?",
+            "link2":"Connectez-vous ici",
+            "errorfield":"champ invalide",
+            "errorConfirm":"doit être identique au mot de passe",
+            "errorAction":"..."
+        },
+        "GetCode":{
+            "title":"VALIDE LE COMPTE",
+            "paragraphe":"Validé votre compte pour acceder a votre compte",
+            "code":"Code",
+            "errorfield":"champ invalide",
+            "errorAction":"..."
+        },
+        "Forgot":{
+            "title":"RÉINITIALISER LE MOT DE PASSE",
+            "paragraphe":"Mot de passe oublié? Ne panique pas",
+            "code":"E-mail",
+            "errorfield":"champ invalide",
+            "errorAction":"..."
+        },
+        "Home":{
+            "title":"DATAVALID",
+            "subtitle":"AYO",
+            "paragraphe":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, culpa fugiat? Qui dolorem rem alias nulla! Illum rerum quidem totam cumque",
+            "about":"À propos de nous",
+            "copy":"Copyright Ayokai@2022"
+
+        },
+        "EmptyWorkspace":{
+            "title":"WORKSPACE VIDE",
+            "subtitle":"Vous n'avez pas de workspace",
+            "paragraphe":"Fr Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime voluptatibus quas harum repudiandae. Aut velit, nemo repellat assumenda explicabo minima placeat temporibus distinctio nisi eos nesciunt amet adipisci porro!",
+            "button":"Créer un workspace"
+        },
+        "ModalCreateWorkSpace":{
+            "title":"CREER UN WORKSPACE",
+            "name":"Libellé",
+            "createBtn":"Créer",
+            "cancelBtn":"Annuler"
+        },
+        "ModalDelWorkSpace":{
+            "title":"Attention",
+            "subtitle":"Voullez-vous vraiment exécuter  cette action ?",
+            "okBtn":"Oui",
+            "cancelBtn":"Annuler"
+        },
+        "ModalAddTeamWorkSpace":{
+            "title":"Ajouter des personnes à mon workspace",
+            "email":"Email",
+            "addEmail":"Ajouter",
+            "errorEmail":"Email invalide",
+            "finishBtn":"Valider",
+            "cancelBtn":"Annuler"
+        },
+        "Folder":{
+            "label":"Vous n'avez pas de projet",
+            "textbtn_empty":"Ajouter un Projet",
+            "paragraphe_empty":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime voluptatibus quas harum repudiandae. Aut velit, nemo repellat assumenda explicabo minima placeat temporibus distinctio nisi eos nesciunt amet adipisci porro!"  
+        }
+
+    }
+]
