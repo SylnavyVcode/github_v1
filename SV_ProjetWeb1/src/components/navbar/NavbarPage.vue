@@ -1,11 +1,11 @@
 <template>
   <div>
-    <nav class="navbar navbar-lg bg-body-tertiary">
+    <nav class="navbar navbar-lg bgBody">
       <div class="container-fluid">
         <div class="row vw-100">
-          <div class="col-1">
+          <div class="col-1 m-0">
             <button
-              class="navbar-toggler"
+              class="navbar-toggler px-2"
               type="button"
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasExample"
@@ -16,7 +16,7 @@
             </button>
 
             <div
-              class="offcanvas offcanvas-start"
+              class="offcanvas offcanvas-start bg-info"
               tabindex="-1"
               id="offcanvasExample"
               aria-labelledby="offcanvasExampleLabel"
@@ -33,10 +33,6 @@
                 ></button>
               </div>
               <div class="offcanvas-body">
-                <!-- <div>
-              Some text as placeholder. In real life you can have the elements
-              you have chosen. Like, text, images, lists, etc.
-            </div> -->
                 <div class="dropdown mt-3">
                   <button
                     class="btn btn-secondary dropdown-toggle"
@@ -58,25 +54,43 @@
               </div>
             </div>
           </div>
-          <div class="col d-flex justify-content-between text-align-center align-items-center">
-            <a class="navbar-brand" href="#">Hidden brand</a>
+          <div
+            class="col d-flex justify-content-between text-align-center align-items-center"
+          >
+            <a
+              class="navbar-brand text-warning fw-bold bg-dark rounded px-2"
+              href="#"
+              >SV_WebDev</a
+            >
 
             <form class="" role="search">
-              <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-</div>
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control bg-outline-success"
+                  placeholder="Search"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-outline-warning"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Search
+                </button>
+              </div>
             </form>
 
-            <div class=" mx-2 mb-lg-0 ">
-                <a
-                  class="active"
-                  aria-current="page"
-                  href="../views/HomeView.vue"
-                  >Home</a
-                >
-                <a class="mx-3" href="#">Link</a>
-                <a class=" disabled">Disabled</a>
+            <div class=" col-3 p-0 mb-lg-0 d-flex justify-content-end align-items-center text-align-center">
+              <a class="text-warning" aria-current="page" href="#"
+                ><i class="bi bi-github"></i
+              ></a>
+              <a class="mx-2 text-warning" href="#"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a class="me-2 text-warning"><i class="bi bi-twitter"></i></a>
+              <a class="text-warning"><i class="bi bi-instagram"></i></a>
             </div>
           </div>
         </div>
@@ -87,4 +101,8 @@
 <script>
 export default {};
 </script>
-<style></style>
+<style>
+.bgBody {
+  background-color: #169cf5;
+}
+</style>
